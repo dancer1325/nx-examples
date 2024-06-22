@@ -61,6 +61,10 @@
   * execute unit tests -- via -- [Jest](https://jestjs.io)
   * ⚠️NOT all projects have a test task configured ⚠️
     * Example:_ `nx test products-e2e`
+* `nx run-many -t test`
+  * execute target `test` / 👁️ALL projects with that target 👁️
+* `nx run-many -t test -p products`
+  * execute target `test` / ⚠️ project 'product' ONLY ⚠️
 * `nx affected:test`
   * execute the unit tests / affected by a change
 
