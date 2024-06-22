@@ -1,10 +1,8 @@
-# NxExample
+# Goals
+* [Run tasks](https://nx.dev/features/run-tasks)
 
-This project was generated using [Nx](https://nx.dev).
-
-<p align="center"><img src="https://raw.githubusercontent.com/nrwl/nx/master/nx-logo.png" width="450"></p>
-
-🔎 **Powerful, Extensible Dev Tools**
+## How has it been created?
+* Via  [Nx](https://nx.dev) 
 
 ## Quick Start & Documentation
 * [Nx Documentation](https://nx.dev)
@@ -61,7 +59,7 @@ This project was generated using [Nx](https://nx.dev).
 ## Running unit tests
 * `nx test SomeProjectName` -- _Example:_ `nx test products` --
   * execute unit tests -- via -- [Jest](https://jestjs.io)
-  * ⚠️NOT all projects have an test task configured ⚠️
+  * ⚠️NOT all projects have a test task configured ⚠️
     * Example:_ `nx test products-e2e`
 * `nx affected:test`
   * execute the unit tests / affected by a change
