@@ -81,10 +81,11 @@ This project was generated using [Nx](https://nx.dev).
 * `nx dep-graph`
   * see a diagram of the dependencies of your projects
 
-
-## Get the tasks / project
+## Notes
 * Display the available tasks / project
-  * Solution: TODO: Command
+  * **Note:** 🧠 NO sense, because tasks are INVOCATIONS -- Check [glossary](https://nx.dev/reference/glossary#task) --  🧠
+* Display the available targets / project
   * Attempts:
     * Attempt1: `nx list target SomeProjectName`
-    * Attempt2: `nx show project products`
+    * Attempt3: `nx show projects --affected --target=build --all` / `nx show projects --affected`
+  * Solution: `nx show project projectName` -- `nx show project products` --
