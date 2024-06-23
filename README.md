@@ -90,4 +90,4 @@
   * Attempts:
     * Attempt1: `nx list target SomeProjectName`
     * Attempt3: `nx show projects --affected --target=build --all` / `nx show projects --affected`
-  * Solution: `nx show project projectName` -- `nx show project products` --
+  * Solution: `nx show project projectName` -- `nx show project products` -- Or via [Nx Console](https://nx.dev/getting-started/editor-setup)
